@@ -1,0 +1,201 @@
+Body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  padding: 15px 25px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  color: #cbd5e1;
+  font-size: 16px;
+  margin-left: 15px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.nav-links button.active {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.tab-content {
+  background: white;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.stepper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 25px;
+}
+
+.stepper button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  background-color: #f8fafc;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.stepper button.active-step {
+  background-color: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.step-box input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.preview-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+  border: 2px solid #2563eb;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.card {
+  border: 2px solid #e2e8f0;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card.selected {
+  border-color: #2563eb;
+  background-color: #eff6ff;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.quantity-controls button {
+  padding: 5px 12px;
+  background: #e2e8f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.btn-secondary {
+  background-color: #64748b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ticket {
+  border: 2px dashed #2563eb;
+  background: #f8fafc;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ticket-header {
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.ticket-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2563eb;
+}
+
+.ticket-details {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.summary-table td, .summary-table th {
+  border: 1px solid #e2e8f0;
+  padding: 8px;
+  text-align: left;
+}
